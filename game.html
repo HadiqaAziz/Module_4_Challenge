@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timed Quiz App -Play</title>
+    <link rel="stylesheet" href="styles.css" />
+   
+  </head>
+  <body>
+    
+    
+    <div class="container">
+      <div id="game" class=" flex-column">
+        <script src="timer.js" id="time"></script>
+        <div id="hud">
+          <div id="hud-item">
+            <div id="count">Start Time</div>
+  
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
+          </div>
+          <div id="hud-item">
+            
+             <div id="score">
+              <a href="/score-board.html">Score Board</a>
+            </div> 
+          </div>
+        </div>
+        <h2 id="question">Answer the following questions?</h2>
+        <div class="choice-container">
+          <p class="choice-prefix">1.</p>
+          <p class="choice-text" data-number="1">Choice 1</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">2.</p>
+          <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">3.</p>
+          <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">4.</p>
+          <p class="choice-text" data-number="4">Choice 4</p>
+        </div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
