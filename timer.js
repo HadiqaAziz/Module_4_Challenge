@@ -9,7 +9,8 @@ var interval = setInterval(function(){
 
   if (count === 0){
   
-    alert("You're out of time!");
+    
+    return window.location.assign("/enter-score.html");
   }
 }, 1000);
 
