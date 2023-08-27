@@ -13,3 +13,9 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
+
+# screen shot of deployed website
+<img width="947" alt="image" src="https://github.com/HadiqaAziz/Quiz-Game-with-timer/assets/2726317/a4d406f4-e186-4ebe-a7b8-c7260774bd34">
+
+
+[link to the deployed website([https://hadiqaaziz.github.io/Quiz-Game-with-timer/)]
