@@ -1,21 +1,42 @@
-# Module_4_Challenge
- This repository contails file of module 4 challenge
+# Code Quiz Game
 
- ## Acceptance Criteria
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
+This repository contains the filesa code quiz game with a timer. Test your knowledge and see how well you can perform under pressure!
 
-# screen shot of deployed website
-<img width="947" alt="image" src="https://github.com/HadiqaAziz/Quiz-Game-with-timer/assets/2726317/a4d406f4-e186-4ebe-a7b8-c7260774bd34">
+## Features
 
+- **Start Button**: Initiates the quiz and starts a timer.
+- **Question Sequence**: Answers lead to the next question.
+- **Timer Penalty**: Incorrect answers subtract time from the clock.
+- **Game Over**: The quiz ends when all questions are answered or the timer runs out.
+- **Score Saving**: Save your initials and score after the game ends.
 
-[link to the deployed website([https://hadiqaaziz.github.io/Quiz-Game-with-timer/)]
+## How to Play
+
+1. **Start the Quiz**:
+   Click the start button to begin the quiz. A timer will start, and the first question will be displayed.
+
+2. **Answer Questions**:
+   Answer each question to proceed to the next. 
+
+3. **Incorrect Answers**:
+   If you answer incorrectly, time will be deducted from the timer.
+
+4. **End of Game**:
+   The quiz ends when you answer all questions or the timer reaches zero. 
+
+5. **Save Your Score**:
+   After the game ends, you can enter your initials and save your score.
+
+## Screenshot
+
+Here is a screenshot of the deployed quiz game:
+
+![Quiz Game Screenshot](https://github.com/HadiqaAziz/Quiz-Game-with-timer/assets/2726317/a4d406f4-e186-4ebe-a7b8-c7260774bd34)
+
+## Deployed Website
+
+You can play the quiz game live at the following link:
+
+[Play the Quiz Game](https://hadiqaaziz.github.io/Quiz-Game-with-timer/)
+
+Enjoy testing your coding knowledge and racing against the clock!
